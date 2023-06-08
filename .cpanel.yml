@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/neelnetw/public_html/pms
+    - /bin/cp * $DEPLOYPATH
+    
