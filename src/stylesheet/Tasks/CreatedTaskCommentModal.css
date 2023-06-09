@@ -1,0 +1,107 @@
+/* Main Modal Body */
+.created-task-comment-modal{
+    width: 100%;
+    padding: 10px;
+}
+/* --- */
+/* All comments ul section */
+
+.ul-all-comments-created-task-comment-modal{
+    padding: 0px;
+}
+
+.li-you-all-comments-created-task-comment-modal, .li-not-you-all-comments-created-task-comment-modal{
+    list-style: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.li-you-all-comments-created-task-comment-modal{
+    text-align: right;
+}
+
+.li-not-you-all-comments-created-task-comment-modal{
+    text-align: left;
+}
+
+/* --------------- all comments by you ------------------ */
+.commentor-li-you-all-comments-created-task-comment-modal{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    color: black;
+}
+
+.comments-on-li-you-all-comments-created-task-comment-modal{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(93, 93, 93);
+}
+
+.message-li-you-all-comments-created-task-comment-modal{
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    padding: 8px 10px;
+    background: linear-gradient(90deg, rgba(215,248,255,1) 0%, rgb(150, 239, 255) 100%);
+    border-radius: 10px 0px 10px 10px;
+    display: inline-block;
+}
+
+/* --------------- all comments by not you (employee) --------------- */
+.commentor-li-not-you-all-comments-created-task-comment-modal{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.comments-on-li-not-you-all-comments-created-task-comment-modal{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(93, 93, 93);
+}
+
+p{
+    margin: 0;
+}
+
+.message-li-not-you-all-comments-created-task-comment-modal{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    padding: 8px 10px;
+    background: linear-gradient(90deg, rgb(217, 217, 217) 0%, rgba(232,232,232,1) 100%);
+    border-radius: 0px 10px 10px 10px;
+    display: inline-block;
+}
+
+/* --- */
+/* Below all the comments */
+.divider-line-created-task-comment-modal{
+    background-color: #333;
+    width: 90%;
+    height: 3px;
+    margin: 10px auto 25px;
+    border-radius: 10px;
+}
+
+.created-task-revert-comment-modal{
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    margin: 15px 0px;
+}
+/* --- */
+
+.comment-body-title{
+    text-align: left;
+}
+
+.comment-body-title span{
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: .5px;
+}

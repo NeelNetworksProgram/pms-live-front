@@ -1,0 +1,196 @@
+/* Form section */
+.page__top-section{
+  display: flex;
+  column-gap: 15px;
+}
+
+  /* Check records section */
+  .check__records{
+    width: 50%;
+    margin: auto;
+  }
+
+  /* Adding time form section */
+  .add__time__form{
+    width: 50%;
+    margin: 5px 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    /* background-color: green; */
+  }
+
+  .add__time__btn{
+    margin-left: 15px;
+  }
+
+  /* Table section for displaying the time records */
+  .table__section{
+    margin: auto;
+    width: 97%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    /* background-color: pink; */
+  }
+
+  .table__content{
+    margin: auto;
+    width: 97%;
+  }
+
+  .react-calendar{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #bababa;
+  }
+
+  .tile{
+    border: 0.5px solid #d2d2d2 !important;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+
+/* Project entries styling */
+.time-entry-section{
+  width: 100%;
+}
+
+.time-entry-table{
+  width: 100%;
+}
+
+/* Entry css */
+
+.single-entry{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.entry{
+  display: flex;
+  flex-direction: column;
+  margin: 12px 5px;
+  padding: 0px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* Project name css */
+.project-name{
+  font-size: 18px;
+  padding: 0px 0px 3px 0px;
+  letter-spacing: 1px;
+}
+
+/* Project time css */
+.project-time{
+  padding: 0px 0px;
+}
+
+.project-time span{
+  padding: 0px 8px 0px 0px; 
+  font-size:15px;
+}
+
+/* Project description */
+.project-description{
+  padding: 0px 0px;
+  font-size: 15px;
+}
+
+.time-entry-title{
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.time-entry-text{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+/* hoverbox */
+#hoverBox {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  padding: 10px;
+  border: 1px solid black;
+}
+ 
+/* select time input in Add time in project page */
+
+.add-time-in-project-select-time-input {
+  background-color: #fff;
+  color: #0b1338 !important;
+}
+
+.add-time-in-project-select-time-input option {
+  background-color: #d2d2d2;
+  color: #0b1338;
+}
+
+.add-time-in-project-select-time-input:focus option:checked {
+  background-color: #0b1338;
+  color: #fff;
+}
+
+.add-time-in-project-select-input{
+  width: 100%;
+}
+
+.ant-select.default__input.default-text-color.css-dev-only-do-not-override-1km3mtt.ant-select-single.ant-select-show-arrow.ant-select-show-search{
+  width: 100%;
+  z-index: 9999;
+}
+
+.default__input.default-text-color.add-time-in-project-select-input{
+  margin: 0;
+}
+
+.row__add-time-in-project-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.row-label__add-time-in-project-form{
+  width: 22%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.row-input__add-time-in-project-form{
+  padding: 0;
+  margin: 0;
+  width: 78%;
+}
+
+.form__div-box.add-time-in-projects{
+  padding: 10px;
+  border: 1px solid #bababa;
+}
+
+.add-time-in-projects__form__block{
+  width: 100%;
+}
+
+textarea.form-control.description-box{
+  height: 0;
+}
+
+.time-entry-radio-button .css-hyxlzm{
+  color: #006edc;
+}
+
+.is-edited{
+  font-size: 16px;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.ant-design-select-zIndex{
+  z-index: 999999  !important;
+}

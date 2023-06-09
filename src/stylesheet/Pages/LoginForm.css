@@ -1,0 +1,76 @@
+ /* login form main div */
+ .login-form-main-div{
+  overflow: hidden;
+ }
+
+    /* forgot password */
+    .link{
+      color: hsla(0,0%,100%,.5);
+    }
+    .link:hover{
+      color: #fff;
+      cursor: pointer;
+    }
+
+    /* login email */
+    .login-email{
+      position: relative;
+    }
+
+    .login-email-input{
+      width: 100%;
+      outline: none;
+      color: #fff;
+      padding: 8px 10px;
+      border: 1px solid #fff;
+      background: transparent;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    /* login password */
+    .login-password{
+      margin-top: 15px;
+      margin-bottom: 15px;
+      position: relative;
+    }
+
+    .login-password-input{
+      width: 100%;
+      outline: none;
+      color: #fff;
+      padding: 8px 10px;
+      border: 1px solid #fff;
+      background: transparent;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    .show-password-icon{
+      position: absolute;
+      right: 13px;
+      top: 13px;
+      cursor: pointer;
+    }
+
+    /* login-form-button */
+    .login-button{
+      padding: 5px 50px;
+      border: 1px solid #fff;
+      background-color: transparent;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .login-button:hover{
+      background-color: #fff;
+      color: #25245c;
+    }
+
+    .loginForm_links{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px 0px 20px 0px;
+    }

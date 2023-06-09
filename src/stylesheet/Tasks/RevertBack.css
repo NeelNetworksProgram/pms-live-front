@@ -1,0 +1,32 @@
+.revert-back-modal-body-header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.revert-back-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 1;
+}
+
+.revert-back-heading span{
+    text-decoration: underline;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.revert-back-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    flex: 1;
+}
+
+.revert-back-option select {
+    padding: 5px 10px;
+    width: 60%;
+}

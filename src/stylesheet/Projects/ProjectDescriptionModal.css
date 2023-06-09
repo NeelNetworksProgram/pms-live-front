@@ -1,0 +1,46 @@
+.project-description-modal-body__header{
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.project-description-modal-body__content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 25px;
+}
+
+.description-field{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.description-field__label{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.description-field__p{
+    font-size: 14px;
+}
+
+.description-field__for-description{
+    display: flex;
+    flex-direction: column;
+    align-items: start;   
+}
+
+.description-field__label__for-description{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.description-field__p__for-description{
+    text-align: left;
+}

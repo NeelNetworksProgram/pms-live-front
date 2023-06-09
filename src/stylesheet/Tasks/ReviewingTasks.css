@@ -1,0 +1,24 @@
+/* --- */
+.reviewing-tasks-table{
+    text-align: center;
+    width: 100%;
+    color: #0b1338;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.reviewing-tasks-table-body-rows-td{
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    padding: 10px 15px;
+  }
+
+  .reviewing-tasks-table-body-rows-td:nth-child(5){
+    width: 16%;
+  }
+  
+  .reviewing-tasks-table-body-rows-td:nth-child(6){
+    width: 33%;
+    text-align: left;
+  }
+  /* --- */

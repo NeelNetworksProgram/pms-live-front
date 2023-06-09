@@ -1,0 +1,34 @@
+/* --- */
+.created-tasks-table{
+    text-align: center;
+    /* width: 100%; */
+    color: #0b1338;
+    font-size: 15px;
+    font-weight: 500;
+    overflow-x: scroll;
+}
+
+.created-tasks-table-body-rows-td{
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    padding: 10px 15px;
+  }
+  
+  .created-tasks-table-body-rows-td:nth-child(2){
+    width: 18%;
+  }
+  
+  .created-tasks-table-body-rows-td.employee:nth-child(3){
+    width: 18%;
+  }
+
+  .created-tasks-table-body-rows-td.AdminOrManager:nth-child(7){
+    width: 27%;
+    text-align: left;
+  }
+  
+  .created-tasks-table-body-rows-td.employee:nth-child(8){
+    width: 27%;
+    text-align: left;
+  }
+  /* --- */

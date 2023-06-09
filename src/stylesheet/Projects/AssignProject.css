@@ -1,0 +1,186 @@
+/* Assign project section */
+.assign__project{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    column-gap: 15px;
+}
+
+.assign-projects-page{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+/* --- */
+
+/* h5 tag */
+.assign-project-heading{
+    width: 97%;
+    margin: 10px auto;
+    text-align: center;
+}
+/* --- */
+
+/* Assign project Form styling */
+.assign__project__form{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    font-family: 'Inter', sans-serif;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assign-project-select-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assign-project-select-label{
+    text-align: left;
+    padding-left: 15px;
+    font-size: 15px !important;
+    margin-top: 8px;
+}
+
+.assign-project-select-input{
+    width: 65%;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    z-index: 0 !important;
+}
+
+.custom-styling__assign-project-select-input{
+    border-radius: 6px;
+    border: 1px solid #d9d9d9;
+    padding: 3px 7px;
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    z-index: 0;
+    width: 50%;
+}
+
+.custom-styling__assign-project-select-input:hover{
+    border-color: #0b1338;
+}
+
+.assign__project__btn{
+    margin-left: 15px;
+}
+
+select.default__input.default-text-color.assign-project-select-input{
+    border-radius: 5px;
+}
+
+select.default__input.default-text-color.assign-project-select-input:hover {
+    border-color: #0b1338;
+}
+/* --- */
+
+/* React quill styling besides the form */
+.editor{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightgreen; */
+    height: 36vh;
+}
+
+.assign-project-note{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+}
+.react-quill-editor{
+    width: 100%;
+    text-decoration: none;
+    flex: 1;
+    overflow: hidden;
+    border-bottom: 1px solid #bababa;
+    /* height: 70%; */
+}
+
+.ql-container.ql-snow{
+    padding-bottom: 30px;
+}
+/* --- */
+.assign-projects-table-body-rows-td, .email-logs-table-body-rows-td{
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.assign-projects-table-body-rows-td:nth-child(2){
+    width: 50%;
+}
+
+.email-logs-table-body-rows-td:nth-child(5){
+    width: 30%;
+    text-align: left;
+}
+
+td.assign-projects-table-body-rows-td {
+    border-bottom-width: 0px;
+}
+
+/* --- */
+input.default__input.assign-project-select-input.completion-time {
+    padding: 5px 11px;
+}
+
+.custom-styling__assign-project-select-input{
+    color: #000;
+    padding-left: 8px;
+    outline: none;
+}
+
+.custom-styling__assign-project-select-input.assign-project-select-input::placeholder{
+    font-size: 16px !important;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #bcbebe;
+}
+
+/* ant design custom styling for react select search dropdown */
+
+  :where(.css-dev-only-do-not-override-1km3mtt).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector{
+    border-color: #0b1338 !important;
+  }
+  
+  :where(.css-dev-only-do-not-override-1km3mtt).ant-select-single .ant-select-selector{
+    font-size: 16px !important;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+  }
+
+  :where(.css-dev-only-do-not-override-1km3mtt).ant-select-single.ant-select-selector{
+    z-index: 9999999 !important;
+}
+  
+  :where(.css-dev-only-do-not-override-1km3mtt).ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    padding: 0px 8px;
+  }
+
+  :where(.css-dev-only-do-not-override-1km3mtt).ant-select-single:not(.ant-select-customize-input).ant-select-selector{
+    z-index: 999999 !important;
+  }
+
+  .all-email-logs-count{
+    margin-left: 8px;
+    margin-bottom: 0px;
+    color: #faa31f;
+    font-size: 26px;
+  }
+
+  
+  /* ant design dropdwon */
+  .ant-select-dropdown.css-dev-only-do-not-override-1km3mtt.ant-select-dropdown-placement-bottomLeft {
+    z-index: 9999999 !important;
+}

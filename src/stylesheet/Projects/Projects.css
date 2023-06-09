@@ -1,0 +1,17 @@
+  .projects__page__header{
+    background-color: rgb(41, 41, 41);
+    color:#fff;
+    text-align: center;
+    padding: 5px;
+  }
+
+
+  .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link{
+    margin: 8px 10px;
+  }
