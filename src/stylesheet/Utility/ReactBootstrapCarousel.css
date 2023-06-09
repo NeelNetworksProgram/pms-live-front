@@ -1,0 +1,27 @@
+.carousel-control-next-icon:after {
+    content: "" !important;
+}
+
+.carousel-control-prev-icon:after {
+    content: "" !important;
+}
+
+.carousel-control-next-icon {
+    background-image: none !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: none !important;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -38px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}

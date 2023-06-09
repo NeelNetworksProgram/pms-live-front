@@ -1,0 +1,81 @@
+
+.register-page-main{
+  overflow: hidden;
+}
+
+    /* forgot password */
+    .link{
+      color: hsla(0,0%,100%,.5);
+    }
+    .link:hover{
+      color: #fff;
+    }
+
+    .register-input-box{
+      margin: 10px 0px;
+    }
+
+
+    /* register username */
+    .register-username{
+      position: relative;
+    }
+
+    .register-username-input{
+      width: 100%;
+      outline: none;
+      color: #fff;
+      padding: 8px 10px;
+      border: 1px solid #fff;
+      background: transparent;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    /* register email */
+    .register-email{
+      position: relative;
+    }
+
+    .register-email-input{
+      width: 100%;
+      outline: none;
+      color: #fff;
+      padding: 8px 10px;
+      border: 1px solid #fff;
+      background: transparent;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    /* register password */
+    .register-password{
+      position: relative;
+    }
+
+    .register-password-input{
+      width: 100%;
+      outline: none;
+      color: #fff;
+      padding: 8px 10px;
+      border: 1px solid #fff;
+      background: transparent;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    /* register-form-button */
+    .register-button{
+      padding: 5px 50px;
+      border: 1px solid #fff;
+      background-color: transparent;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .register-button:hover{
+      background-color: #fff;
+      color: #25245c;
+    }

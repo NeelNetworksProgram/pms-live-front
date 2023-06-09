@@ -1,0 +1,66 @@
+/* --- */
+/* Heading portion in MyTasks */
+.my-tasks-header{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .my-tasks-header h3{
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .my-tasks-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tasks-container-title{
+    margin-bottom: 10px;
+  }
+
+  .my-tasks-count{
+    margin-left: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    background-color: #0b1338;
+    color: #faa31f;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 16px;
+  }
+  /* --- */
+  /* tasks filter */
+
+  .task-filter{
+    margin-right: 15px;
+    list-style: none;
+    color: #0b1338;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .task-filter:hover{
+    color:#0b1338;
+  }
+
+  /* --- */
+  /* tasks container */
+  .task-container{
+    padding-top: 15px;
+  }
+
+  /* --- */
+
+  .mytasks-page{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }

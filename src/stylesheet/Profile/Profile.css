@@ -1,0 +1,308 @@
+.profile{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.notification-icon{
+  position: relative;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  /* z-index: -1; */
+  margin-right: 40px;
+}
+
+.notification-icon.dark{
+  color: #fff;
+}
+
+.notifications-list{
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #bababa;
+  position: absolute;
+  top: 80px;
+  right: 110px;
+  max-height: 300px;
+  z-index: 9;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.pop-up-box{
+  position: relative;
+}
+
+.notifications_list{
+  padding: 5px !important;
+}
+
+.notifications-list__header{
+  width: 100%;
+  color: #000;
+  font-weight: 500;
+  border-bottom: 1px solid #bababa;
+  cursor: default;
+}
+
+.notifications-list__header p{
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.notifications-list__content{
+  background-color: #fff;
+}
+
+.notifications-list__content ul{
+  margin: 0;
+  padding: 0;
+}
+
+.notfications-list__li{
+  padding: 5px 10px;
+  margin: 3px;
+  list-style: none;
+  cursor: default;
+}
+
+.notfications-list__li:nth-child(even){
+  background-color: #f1f1f1;
+}
+
+.notfications-list__li-title{
+  /* text-decoration: underline; */
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.notfications-list__li-sub-title{
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.notfications-list__li-time{
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+.view-all-notifications{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-all-notifications-link{
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  border-top: 1px solid #bababa;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.view-all-notifications-link:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
+.all-notifications-count{
+    position: absolute;
+    top: -12px;
+    right: -11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 9px;
+}
+
+.zero-notifications-msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+p.zero-notifications-msg{
+  color: #000;
+}
+
+/* --- */
+.profile-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 10px;
+  }
+/* --- */
+  
+  .user-name{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:default;
+    font-size: 16px;
+    height: 100%;
+
+  }
+/* --- */
+
+  .sort-down-icon{
+    padding: 0px 8px;
+    margin-bottom: 5px;
+  }
+/* --- */
+  
+  .profile-navbar-dropdown{
+    position: absolute;
+    display: none;
+    background-color: #34373a; 
+    top: 9vh;
+    right:20px;
+  }
+  
+  .user-name:hover + .profile-navbar-dropdown{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-navbar-dropdown:hover{
+    display: flex;
+    flex-direction: column;
+  }
+
+    .profile-navbar-dropdown a{
+    text-decoration: none;
+    cursor:pointer;
+    color: #fff;
+  }
+
+  .profile-navbar-dropdown a:hover{
+    background-color: #005182;
+    color: #fff;
+  }
+  
+  .profile-navbar-dropdown-span{
+    cursor:pointer;
+    color: #fff;
+    padding: 7px 14px;
+    text-align: center;
+    font-size: 14px;
+    font-family:'Inter', sans-serif;
+  }
+
+  .profile-navbar-dropdown-span:hover{
+    color: #fff;
+    background-color: #005182;
+  }
+
+  .logout-button{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+  }
+
+  /* ---------- regarding pop up css */
+  .notification-icon-css{
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    margin-right: 40px;
+    z-index: 5;
+}
+
+.popup-overlay {
+    position: absolute;
+    inset: 0px;
+    display: block;
+    z-index: 999;
+    pointer-events: auto;
+}
+
+.popup-content {
+    position: absolute;
+    pointer-events: auto;
+    /* top: -27%;
+    left: 22%; */
+}
+
+.pop-up-modal{
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: #e0dede;
+    border: 1px solid #bababa;
+}
+
+.headings{
+  /* background-color: rgb(147, 245, 147); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.myprofile, .update-password{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #bababa;
+}
+
+.myprofile-heading{
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.myprofile-heading.bold{
+  font-weight: 600;
+}
+
+.myprofile-content{
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 10px;
+}
+
+.myprofile-content p{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.myprofile-content p span{
+  border-bottom: 1px solid #bababa;
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+.update-password-form{
+  padding: 25px;
+}

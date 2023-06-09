@@ -1,0 +1,38 @@
+.project-update-modal__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-update-modal__input-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-update-modal__input-div label{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.project-update-modal__input-div input, .project-update-modal__input-div select{
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #bababa;
+}
+
+.project-update-modal__input-div select:hover{
+    cursor: pointer;
+    border-color: #0b1338;
+}
+
+.project-update-modal__input-div input:hover{
+    cursor: not-allowed;
+}

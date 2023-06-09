@@ -1,0 +1,75 @@
+/* --- */
+.assign-project-users-modal-heading{
+    font-size: 16px;
+}
+
+/* --- */
+.users-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin:5px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #d9d8d8;
+    border-radius: 5px;
+}
+
+.users-p span{
+    padding: 0px 5px;
+    margin: 0px 10px;
+}
+
+.users-p:nth-last-child(1){
+    margin-bottom: 15px;
+}
+/* --- */
+
+
+/* --- */
+.assignProjectUsersModal.table.text-center.default__table__content{
+    margin-bottom: 0px;
+}
+
+.time-entries-browser-heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ededed;  
+    flex-direction: column;
+}
+
+.time-entries-browser-heading .default__table__section{
+    padding-bottom: 0px;
+}
+
+.time-entries-browser-content{
+    padding: 0px 25px;
+}
+/* --- */
+.time-entry-record{
+    text-align: left;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    margin: 10px 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0px 10px;
+  }
+
+.time-entry-record.time-entries-browser-time-entry-record{
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    width: 70%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+/* --- */
+
+.time-entries-heading{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}

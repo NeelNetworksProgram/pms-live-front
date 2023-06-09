@@ -1,0 +1,16 @@
+
+.user-type-div{
+    display: flex;
+    width: 100%;
+}
+/* --- */
+
+.radio-group{
+    width: calc(100% - 22%);
+    margin-left: 0px;
+}
+
+.add-new-user-type-radio-group{
+    margin-top:5px;
+}
+/* --- */

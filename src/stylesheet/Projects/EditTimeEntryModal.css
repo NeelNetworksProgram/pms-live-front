@@ -1,0 +1,19 @@
+.time-entry-modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.time-entry-modal-body.padding{
+    padding: 15px 25px;
+}
+
+.time-entry-modal-body.assigned-projects-page{
+    align-items: start;
+}
+
+textarea.form-control.description-box{
+    height: auto !important;
+}

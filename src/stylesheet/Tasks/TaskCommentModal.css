@@ -1,0 +1,15 @@
+.all-comments-task-comment-modal{
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+}
+/* --- */
+
+.divider-line-task-comment-modal{
+    background-color: #333;
+    width: 90%;
+    height: 3px;
+    margin: 10px auto 25px;
+    border-radius: 10px;
+}
+/* --- */

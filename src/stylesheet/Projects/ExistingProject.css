@@ -1,0 +1,80 @@
+.existing-projects-page{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.all-projects-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input.global-filter-input:hover {
+  border-color: #0b1338;
+}
+
+/* ------- */
+/* react table styling */
+.existing-projects-table{
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.existing-projects-table-head{
+  font-size: 17px;
+  background-color: #0b1338;
+  color: #fff;
+}
+
+.existing-projects-table thead th{
+  padding: 5px;
+}
+
+.existing-projects-table-head-row{
+  display: table-header-group;
+  padding: 10px;
+}
+
+.existing-projects-table-body-rows-td{
+  border-bottom: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+.existing-projects-table-body-rows-td:nth-child(2){
+  width: 20%;
+}
+
+.existing-projects-table-body-rows-td:nth-child(7){
+  width: 20%;
+}
+
+.project__filterations-existing-project-page{
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.projects__count-label{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.projects__count-count{
+ font-size: 17px; 
+ font-weight: 700;
+ margin-left: 5px;
+}
+
+.existing-projects-fitleration.employee-select-box-input{
+  padding: 0px;
+}
+
+.project-select-box{
+  flex: 1;
+}

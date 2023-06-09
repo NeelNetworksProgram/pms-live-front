@@ -1,0 +1,16 @@
+.content__header{
+    position: relative;
+    left: 8%;
+    width: 92%;
+    background-color: rgb(41, 41, 41);
+    color:#fff;
+  }
+
+  .content__header h3{
+    text-align: center;
+    padding:10px 0px 5px 0px;
+  }
+
+  .link{
+    margin: 8px 10px;
+  }
